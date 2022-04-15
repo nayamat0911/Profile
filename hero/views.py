@@ -9,4 +9,4 @@ def Hero(request):
        
 
     }
-    return render(request, 'hero.html',context=program_context)
+    return render(request, 'basic.html',context=program_context)
