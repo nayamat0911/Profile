@@ -9,12 +9,18 @@
     <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
     <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
     <script src="{% static 'bootstrap/js/popper.min.js' %}"></script>
+
+    <!---custom css-->
+    <link rel="stylesheet" href="{% static 'custom_css/main.css' %}">
+
     {% endblock static_ %}
+
     <title>
         {% block title %}
             {{title}}
         {% endblock title %}
     </title>
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
